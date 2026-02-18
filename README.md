@@ -1,11 +1,10 @@
-# 📘 Recipe API – Flask + SQLite
+# Recipe API – Flask + SQLite
 
 A simple REST API built using Flask and SQLite to manage and retrieve recipe data.  
 This project demonstrates backend development concepts including routing, database connectivity, filtering, and record counting.
 
----
 
-## 📌 Project Overview
+##  Project Overview
 
 This API allows you to:
 
@@ -16,38 +15,36 @@ This API allows you to:
 
 It is designed as a beginner-friendly backend project using Flask and SQL.
 
----
 
-## 🛠️ Technologies Used
+
+## Technologies Used
 
 - Python 3
 - Flask
 - SQLite
 - SQL
 
----
 
-## 📂 Project Structure
 
-```
+## Project Structure
+
+
 project-folder/
 │
 ├── app.py
 ├── recipes.db
 ├── README.md
-```
 
----
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
-### 1️⃣ Install Dependencies
+### I) Install Dependencies
 
 ```bash
 pip install flask
 ```
 
-### 2️⃣ Run the Application
+### II) Run the Application
 
 ```bash
 python app.py
@@ -61,9 +58,9 @@ http://127.0.0.1:5000
 
 ---
 
-## 🌐 API Endpoints
+##  API Endpoints
 
-### 🔹 Home
+### - Home
 ```
 GET /
 ```
@@ -71,7 +68,7 @@ Returns a confirmation message that the server is running.
 
 ---
 
-### 🔹 Get All Recipes
+### - Get All Recipes
 ```
 GET /recipes
 ```
@@ -79,7 +76,7 @@ Returns all records from the `recipes` table.
 
 ---
 
-### 🔹 Get Total Record Count
+### - Get Total Record Count
 ```
 GET /count
 ```
@@ -92,7 +89,7 @@ Total records: 120
 
 ---
 
-### 🔹 Filter Recipes
+### - Filter Recipes
 ```
 GET /filter?country=India
 ```
@@ -100,7 +97,7 @@ Returns recipes filtered by country (or other query parameters if implemented).
 
 ---
 
-## 🗄️ Database Details
+## Database Details
 
 - Database File: `recipes.db`
 - Table Name: `recipes`
@@ -112,7 +109,7 @@ Example Table Structure:
 
 ---
 
-## ⚠️ Common Issues
+##  Common Issues
 
 ### 404 Not Found
 
@@ -124,7 +121,7 @@ If a route returns 404:
 
 ---
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 - Add pagination support
 - Add JSON responses
