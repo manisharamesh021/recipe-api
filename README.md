@@ -29,12 +29,15 @@ It is designed as a beginner-friendly backend project using Flask and SQL.
 ## Project Structure
 
 
+```
 project-folder/
 │
 ├── app.py
 ├── recipes.db
 ├── README.md
+```
 
+---
 
 ##  How to Run the Project
 
